@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.example.sportrecorder.screens.main.MainViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account ID"
+            android:fontFamily="@font/roboto_light"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:text="@{vm.user.id}"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account email"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto_light"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:text="@{vm.user.email}"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> vm.logout()}"
+            android:layout_margin="16dp"
+            android:textColor="@color/white"
+            android:text="Logout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginHorizontal="16dp"
+            android:text="When you logout, you will lost all your locally saved sport records!"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</layout>

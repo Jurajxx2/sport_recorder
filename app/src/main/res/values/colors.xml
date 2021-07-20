@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black_50">#80000000</color>
+
+    <color name="pastel_blue_1">#85A1F2</color>
+    <color name="pastel_blue_2">#8BC6FC</color>
+    <color name="pastel_blue_3">#91DDF2</color>
+    <color name="pastel_blue_4">#7ABACC</color>
+    <color name="complementary_1">#99746B</color>
+    <color name="complementary_2">#E6A595</color>
+    <color name="complementary_3">#99844D</color>
+    <color name="complementary_4">#E6C97E</color>
+</resources>

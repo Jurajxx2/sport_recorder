@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SportRecorder" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pastel_blue_1</item>
+        <item name="colorPrimaryVariant">@color/pastel_blue_2</item>
+        <item name="colorOnPrimary">@color/pastel_blue_3</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pastel_blue_4</item>
+        <item name="colorSecondaryVariant">@color/complementary_1</item>
+        <item name="colorOnSecondary">@color/complementary_2</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
