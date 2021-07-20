@@ -25,3 +25,5 @@ App developed as a test project for Etnetera. App should provide basic functiona
 - Koin
 
 <h2>Application flow</h2>
+
+<img src="./app_flow.png">
