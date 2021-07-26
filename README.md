@@ -4,7 +4,7 @@ minSdkVersion - 23 targetSdkVersion - 30
 
 <h2>Description</h2>
 
-App developed as a test project for Etnetera. App should provide basic functionality for defining exercise related data. These are: name, location, duration, save location. User can choose to save to local or remote database, in case of local database, data will be lost after logout. As for location selection, user can select any place on map.
+App developed as a test project. App should provide basic functionality for defining exercise related data. These are: name, location, duration, save location. User can choose to save to local or remote database, in case of local database, data will be lost after logout. As for location selection, user can select any place on map.
 <h2>Some of used libraries</h2>
 
 <h3>1. Maps</h3>
